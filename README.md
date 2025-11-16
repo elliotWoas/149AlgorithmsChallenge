@@ -1,26 +1,28 @@
+<h1 align="center">🌟 149 Algorithms Challenge</h1>
+
+<p align="center">
+  Ace your JavaScript coding interview by solving 149 structured algorithm problems.
+  <br>
+  Each challenge includes:
+  <br>
+  ✔ Clear instructions • ✔ Starter code • ✔ Initial test cases
+</p>
+
 ---
-
-# 149AlgorithmsChallenge
-
----
-<p>The 149 Algorithms Challenge: How to Ace the JavaScript Coding Interview.</p>
-<p>There are 149 algorithms with README instructions as well as the initial function setup with a few test cases.</p>
-
-## How to Contribute🎇
-
-We welcome contributions from the community! Here are the steps to contribute to this project:
 
 1. **Fork the repository**: Click the "Fork" button at the top right of this repository to create a copy of the repository in your GitHub account.
 
 2. **Clone your fork**: Clone the forked repository to your local machine using the following command:
     ```sh
-    git clone https://github.com/elliotWoas/149AlgorithmsChallenge.git
+    git clone https://github.com/YOUR-USERNAME/149AlgorithmsChallenge.git
     ```
 
-3. **Create a new branch**: Create a new branch for your feature or bug fix:
-    ```sh
-    git checkout -b my-feature-branch
-    ```
+3️⃣. **Create a new branch**: Create a new branch for your SOLUTIONS :
+⭕You should always work with the same branch!!⭕
+
+```sh
+     git checkout -b solutions-YOUR-USERNAME
+   ```
 
 4. **Make your changes**: Make your changes to the codebase.
 
@@ -50,3 +52,5 @@ We welcome contributions from the community! Here are the steps to contribute to
 5. **Create the pull request**: Click the "Create pull request" button. Provide a title and description for your pull request, then click "Create pull request" again to submit.
 
 Thank you for contributing to the 149AlgorithmsChallenge!♥
+
+
