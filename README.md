@@ -10,6 +10,8 @@
 
 ---
 
+## 🚀 Getting Started
+
 1. **Fork the repository**: Click the "Fork" button at the top right of this repository to create a copy of the repository in your GitHub account.
 
 2. **Clone your fork**: Clone the forked repository to your local machine using the following command:
@@ -17,27 +19,27 @@
     git clone https://github.com/YOUR-USERNAME/149AlgorithmsChallenge.git
     ```
 
-3️⃣. **Create a new branch**: Create a new branch for your SOLUTIONS :
-⭕You should always work with the same branch!!⭕
-
-```sh
+3. **Create a new branch**: Create a new branch for your SOLUTIONS :
+    ```sh
      git checkout -b solutions-YOUR-USERNAME
-   ```
+     ```
 
-4. **Make your changes**: Make your changes to the codebase.
+    - ⚠️ Always work in your own branch, never commit directly to main.
 
-5. **Commit your changes**: Commit your changes with a descriptive commit message:
+5. **Make your changes**: Make your changes to the codebase.
+
+6. **Commit your changes**: Commit your changes with a descriptive commit message:
     ```sh
     git add .
     git commit -m "Description of your changes"
     ```
 
-6. **Push to your fork**: Push your changes to your forked repository:
+7. **Push to your fork**: Push your changes to your forked repository:
     ```sh
-    git push origin my-feature-branch
+    git push origin solutions-YOUR-USERNAME
     ```
 
-7. **Create a pull request**: Go to the original repository on GitHub and click the "New pull request" button. Select your branch from the "compare" dropdown and submit the pull request.
+8. **Create a pull request**: Go to the original repository on GitHub and click the "New pull request" button. Select your branch from the "compare" dropdown and submit the pull request.
 
 ## How to Create a Pull Request
 
@@ -51,6 +53,4 @@
 
 5. **Create the pull request**: Click the "Create pull request" button. Provide a title and description for your pull request, then click "Create pull request" again to submit.
 
-Thank you for contributing to the 149AlgorithmsChallenge!♥
-
-
+♥ Thank you for contributing to the 149AlgorithmsChallenge!
