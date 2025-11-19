@@ -51,6 +51,6 @@
 
 4. **Review your changes**: Review the changes you made to ensure they are correct.
 
-5. **Create the pull request**: Click the "Create pull request" button. Provide a title and description for your pull request, then click "Create pull request" again to submit.
+5. **Create the pull request**: Click the "Create pull request" button. Provide a title and description for your pull request, then click "Create pull request" again to submit
 
 ♥ Thank you for contributing to the 149AlgorithmsChallenge!
