@@ -1,6 +1,5 @@
 export function alphabetSubsequence(s: string): boolean {
 
-    
 }
 
 console.log(alphabetSubsequence('zab'))
