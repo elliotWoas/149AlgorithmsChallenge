@@ -1,22 +1,12 @@
-export function absoluteValuesSumMinimization(a: number[]): number {
-
-}
-
-// Finding the median number in a numerical array using the method proposed by ai
-function absoluteValuesSumMinimization1(a: number[]):number {
-  a.sort((a, b) => a - b);
-  return a[Math.floor((a.length - 1) / 2)];
-}
-
-
 interface objectNTSDONType {
   [name: number]: number;
 }
 
 
-function absoluteValuesSumMinimization2(a: number[]) {
+export function absoluteValuesSumMinimization(a: number[]): number {
+
   const objectNTSDON: objectNTSDONType = {}; //An object is a number, the sum of its distances from other numbers.
-  let keyNumberMin;
+  let keyNumberMin ;
   let sunDistancesMin: number | undefined;
 
   a.forEach((item: number) => {
@@ -40,8 +30,19 @@ function absoluteValuesSumMinimization2(a: number[]) {
       }
     }
   }
-  return keyNumberMin;
+  return Number(keyNumberMin);
+
+
 }
+
+// Finding the median number in a numerical array using the method proposed by ai
+// function absoluteValuesSumMinimizationAi(a: number[]):number {
+//   a.sort((a, b) => a - b);
+//   return a[Math.floor((a.length - 1) / 2)];
+// }
+
+
+
 
 
 // console.log(absoluteValuesSumMinimization([2, 4, 7]))
