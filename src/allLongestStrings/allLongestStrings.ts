@@ -1,6 +1,10 @@
 export function allLongestStrings(inputArray: string[]): string[] {
-    const maxLength = Math.max(...inputArray.map(e => e.length));
-    return inputArray.filter(e => e.length == maxLength);
+    let len: number[] = []
+    for (const arr of inputArray) {
+        len.push(arr.length);
+    }
+    const maximum = Math.max(...len);
+    return inputArray.filter(a => a.length === maximum)
 }
 
 console.log(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]));
