@@ -1,6 +1,6 @@
 <h1 align="center">🌟 149 Algorithms Challenge</h1>
 
-<p align="center">
+<p align="center"> 
   Ace your JavaScript coding interview by solving 149 structured algorithm problems.
   <br>
   Each challenge includes:
